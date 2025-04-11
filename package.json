@@ -1,0 +1,21 @@
+{
+  "name": "stl-dsa-ticket-bot",
+  "version": "1.0.0",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npm run build && node --env-file=.env .\\dist\\main.js",
+    "prettier": "prettier src --write"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@slack/bolt": "^4.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "@slack/types": "^2.14.0",
+    "prettier": "^3.5.3"
+  }
+}
