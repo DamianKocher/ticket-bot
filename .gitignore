@@ -1,0 +1,5 @@
+.idea
+dist
+node_modules
+.env
+stl-dsa-ticket-bot.iml
