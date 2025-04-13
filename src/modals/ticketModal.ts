@@ -35,13 +35,6 @@ export const CREATE_TICKET_MODAL: ModalView = {
       type: 'section',
       text: {
         type: 'mrkdwn',
-        text: "damian is still working on this. please don't use this for real comms requests yet :)",
-      },
-    },
-    {
-      type: 'section',
-      text: {
-        type: 'mrkdwn',
         text: '*Select the type of ticket you would like to create:*',
       },
     },
