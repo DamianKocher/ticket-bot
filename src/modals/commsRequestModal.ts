@@ -38,12 +38,13 @@ export const COMMS_REQUEST_MODAL: ModalView = {
       optional: false,
       options: [
         { label: 'Administrative Committee', value: 'Ad-Comm' },
-        { label: 'Electoral Committee', value: 'Electoral' },
+        { label: 'Electoral Organizing Committee', value: 'Electoral' },
         { label: 'Executive Committee', value: 'EC' },
-        { label: 'Green New Deal Working Group', value: 'GND' },
+        { label: 'Streets Organizing Committee', value: 'Streets' },
         { label: 'Labor Committee', value: 'Labor' },
         { label: 'Political Education Committee', value: 'Polid Ed' },
-        { label: 'Transit Caucus', value: 'Transit' },
+        { label: 'Growth & Development Committee', value: 'GDC' },
+        { label: 'Caregivers\' Caucus', value: 'Caregivers' },
       ],
     }),
     createCheckboxBlock({
