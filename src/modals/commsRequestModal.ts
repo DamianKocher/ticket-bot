@@ -37,7 +37,8 @@ export const COMMS_REQUEST_MODAL: ModalView = {
       label: 'Formation',
       optional: false,
       options: [
-        { label: 'Administrative Committee', value: 'Ad-Comm' },
+        { label: 'Administrative Committee', value: 'Admnistrative' },
+        { label: 'Communications Committee', value: 'Communications' },
         { label: 'Electoral Organizing Committee', value: 'Electoral' },
         { label: 'Executive Committee', value: 'EC' },
         { label: 'Streets Organizing Committee', value: 'Streets' },
